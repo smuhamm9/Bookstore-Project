@@ -1,0 +1,17 @@
+# Bookstore-Project
+Final Project for Database Design &amp; Implementation (ITCS 3160)
+
+General information: 
+This is a group project, each group consisting of 2 students.  You will design, implement and query a  database system for a virtual online bookstore using MySQL. You will need to implement the system as  required by the attached specification and requirements (Appendix A). You can introduce more entities,  relations, and functions which would not violate the given specification and requirements. You can find  real enterprises such as amazon.com for examples. 
+
+Milestones:  
+* 11/3: by 11:59 pm, each group submits a hardcopy of your EER diagram (make sure that you keep a  copy of it) that capture the requirements. If you add extra business rules besides those in Appendix A,  include them in your submission. Please list the full names of all group members in the submission (4  points for the EER diagram) 
+The EER diagram should capture the entities, attributes, and business rules when possible. It is possible  that your EER diagram can’t capture all constraints from the business rule. Please specify the constraints  that cannot be captured by the model. 
+
+* 11/10: by 11:59 pm, each group submits a hardcopy of the relational schema of the database (make  sure that you keep a copy). Please make sure that your relations are in the third normal form. It is  possible that your relation schema can’t capture all constraints from the EER diagram. Please specify the  constraints that cannot be captured (4 points for the relational schema). 
+
+* 11/27: by 11:59 pm, each group needs to submit a runnable MySQL script file through Canvas  (submissions without comments will be rejected). The script should conduct the following tasks:  
+(1) write SQL comments to create a relational database according to your relational schema. Primary  key and foreign key should be properly defined to ensure referential integrity (3 points).  
+(2) write SQL comments to insert some example tuples into your relations so that you can run queries  on them (2 points for populating the tables). 
+
+(3) write SQL commands to queries and update the database to exemplify that you can perform all the  functions (except those that should be conducted in a programming language rather than MySQL) listed  in Appendix A. It is possible that you can’t conduct all functions using MySQL. Put comments in your  script file to list those functions (4 points for the SQL commands). 
